@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    font-family: 'Teko', sans-serif; /* Apply font directly */
+  }
+}
+
 @layer components {
   .search-bar {
     @apply w-0 group-hover:w-[300px] transition-all duration-300

@@ -33,11 +33,11 @@ const Footers = () => {
               {/*Company Details */} 
               <div className='py-8 px-4 text-left'> 
               <a href='#'
-                className='text-primary font-semibold 
-                tracking-widest text-2xl uppercase sm:text-3xl'>
+                className='text-secondary font-semibold 
+                tracking-widest text-3xl uppercase sm:text-3xl'>
                    <img src={Image} className='size-10' />
                 </a>
-                <p className='text-white lg:pr-24 pt-3'>
+                <p className='text-white lg:pr-24 pt-3 text-xl'>
                 Ultimate Kricket Challenge (UKC) is a revolutionary token that aims to transform the cricketing world...
                 </p>
                 {/* <p className='text-white mt-4'>
@@ -60,7 +60,7 @@ const Footers = () => {
                             {FooterLinks.map((data, index) => (
                                 <li key={index}>
                                     <a href={data.link}
-                                    className='text-white hover:text-black 
+                                    className='text-white text-xl hover:text-black 
                                     duration-300'>
                                         {data.name}
                                     </a>

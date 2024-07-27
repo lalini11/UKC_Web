@@ -24,7 +24,8 @@ const Banner = ({ handleOrderPopup }) => {
                                 data-aos='zoom-out'
                                 data-aos-duration='500'
                                 data-aos-once='true'
-                                className='text-xl sm:text-4xl lg:text-5xl font-bold text-white'
+                                //className='text-xl sm:text-4xl lg:text-5xl font-bold text-white'
+                                className='text-white font-bold text-[3.7rem] leading-[3.7rem]'
                             >
                                 {'CRICKET TRUSTED CRYPTO UKC COIN'}
                             </h1>
@@ -33,7 +34,8 @@ const Banner = ({ handleOrderPopup }) => {
                                 data-aos='zoom-out'
                                 data-aos-duration='500'
                                 data-aos-once='true'
-                                className='text-l sm:text-xl lg:text-l text-white hidden sm:block text-justify'
+                                //className='text-l sm:text-xl lg:text-l text-white hidden sm:block text-justify'
+                                className='text-[28px] leading-normal text-white hidden sm:block text-justify'
                             >
                                 {'Ultimate Kricket Challenge (UKC) is a revolutionary token that aims to transform the cricketing world. By leveraging blockchain technology, we provide a platform that ensures transparency, security, and engagement for all stakeholders in the cricket community.'}
                             </h1>

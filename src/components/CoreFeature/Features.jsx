@@ -38,7 +38,7 @@ const Features = () => {
   return (
     <div className='container'>
         <div className='py-8 text-white'>
-        <Heading title='Core Features'/>
+        <p className='text-[75px] leading-[1.1] justify-center text-secondary'>CORE FEATURE</p>
         <div className='container'>
             <div className='grid grid-cols-1 sm:grid-cols-2
             lg:grid-cols-4 gap-8 m-5 lg:m-14'> 
@@ -50,17 +50,17 @@ const Features = () => {
                     <div className='relative'>
                         {data.img}
                     </div>
-                    <div className='leading-7 my-2'>
-                        <h2 className='font-semibold'>{data.title}</h2>
-                        <p className='text-sm'>{data.subtitle}</p>
+                    <div className='my-2'>
+                        <h2 className='font-semibold text-[1.5rem] leading-[1.1]'>{data.title}</h2>
+                        <p className='text-[1.2rem] leading-[1.4]'>{data.subtitle}</p>
                     </div>
                 </div>
             ))}
             </div>
         </div>
 
-        <Heading title='Purpose'/>
-        <p className='lg:mx-14 mx-2 mb-7 sm:mx-5 text-base'>The Most Trusted Cryptocurrency Coin.
+        <p className='text-[5rem] leading-[1.1] justify-center'>PURPOSE</p>
+        <p className='lg:mx-14 mx-2 mb-7 sm:mx-5 text-2xl'>The Most Trusted Cryptocurrency Coin.
         Ultimate Kricket Challenge (UKC) is the new frontier in the world of cricket,
          combining the excitement of the sport with the innovative power of blockchain technology. 
          Our token, UKC, is designed to bring fans, players, and investors together in a seamless, 

@@ -33,13 +33,13 @@ const [dropdownOpen, setDropdownOpen] = useState(false);
         <div className='container flex justify-between items-center'>
             <div className='flex items-center gap-4'>
               <a href='#'>
-                <img src={Image} className='size-10' alt="Logo" />
+                <img src={Image} className='size-11' alt="Logo" />
               </a>
             </div>
 
             {/* Aligning nav bar options and button to the right */}
             <div className='flex items-center gap-4 ml-auto'>
-              <div className='hidden sm:flex lg:flex gap-4'>
+              <div className='hidden sm:flex lg:flex gap-4 text-2xl'>
                 <ul className='flex gap-4 uppercase'>
                   {MenuLinks.map((data, index) => (
                     <li key={index}>

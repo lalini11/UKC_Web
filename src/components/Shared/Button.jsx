@@ -6,6 +6,7 @@ const Button = ({text, bgColor, textColor, handler = () => {} }) => {
     onclick={handler}
     className={`${bgColor} ${textColor}
     cursor-pointer hover:scale-105 hover:bg-secondary
+    text-2xl
     duration-300 py-2 px-8 rounded-l hover:data-aos='fade-right'
     relative z-10 border border-2 border-purple-500`}>
         {text}

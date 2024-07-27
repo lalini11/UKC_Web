@@ -34,7 +34,8 @@ const Starts = () => {
   return (
     <div className='container'>
         <div className='py-8'>
-        <Heading title='Follow The Stars'/>
+            <p className='text-[5rem] leading-[1.1] justify-center text-white'> FOLLOW THE STARS </p>
+        {/* <Heading title='Follow The Stars'/> */}
         <div className='container'>
             <div className='grid grid-cols-1 sm:grid-cols-2
             lg:grid-cols-4 gap-1 m-5 lg:m-14 '> 

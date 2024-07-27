@@ -6,8 +6,8 @@ const Overview = () => {
     <div>
         <div className='items-center text-white lg:mx-14'>
                     {/* <img src={trophy} className='-mt-70'/> */}
-                    <h1 className='text-4xl font-bold'>OVERVIEW & VISION </h1>
-                    <p className='text-base lg:mx-44 mx-2 m-5'>
+                    <h1 className='text-[4rem] leading-[1.1] font-bold'>OVERVIEW & VISION </h1>
+                    <p className='text-[1.3rem] leading-6 lg:mx-44 mx-2 m-5'>
                         Ultimate Kricket Challenge (UKC) is a revolutionary token that aims to 
                         transform the cricketing world. By leveraging blockchain technology, 
                         we provide a platform that ensures transparency, security, 
