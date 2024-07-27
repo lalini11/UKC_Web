@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Video from '../../assets/images/Video.mp4'
 
 const Overview = () => {
   return (
@@ -6,13 +7,13 @@ const Overview = () => {
         <div className='items-center text-white lg:mx-14'>
                     {/* <img src={trophy} className='-mt-70'/> */}
                     <h1 className='text-4xl font-bold'>OVERVIEW & VISION </h1>
-                    <p className='text-m lg:mx-44 mx-2 m-5'>
+                    <p className='text-base lg:mx-44 mx-2 m-5'>
                         Ultimate Kricket Challenge (UKC) is a revolutionary token that aims to 
                         transform the cricketing world. By leveraging blockchain technology, 
                         we provide a platform that ensures transparency, security, 
                         and engagement for all stakeholders in the cricket community</p>
 
-                        <div className='flex justify-center m-2 sm:m-5'>
+                        <div className='lg:flex sm:flex grid grid-cols-1 gap-4 justify-center lg:m-2 sm:m-2 mx-10 sm:m-5'>
                           <iframe
                             // width="560"
                             // height="315"
@@ -20,8 +21,12 @@ const Overview = () => {
                             title="YouTube video player"
                             allow="accelerometer; thumbnail; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
-                            className='border border-4 border-secondary lg:w-[460px] lg:h-[262px] sm:w-[436px] sm:h-[250px] w-[300px] h-[170px]'
+                            className='border border-4 border-secondary lg:w-[460px] lg:h-[262px] sm:w-[432px] sm:h-[190px] w-[300px] h-[170px]'
                           ></iframe>
+
+                          <video src={Video} controls
+                            className='border border-4 border-secondary lg:w-[460px] lg:h-[262px] sm:w-[432px] sm:h-[190px] w-[300px] h-[170px]'
+                          />  
                         </div>
                 </div>
     </div>

@@ -12,6 +12,10 @@ export default {
         //   DEFAULT: "2rem",
         //   sm: "3rem",
         // },
+        fontFamily: {
+          'teko': ['Teko', 'sans-serif'],
+        },
+        
         margin: {
           DEFAULT: "1rem",
           sm: "1rem",

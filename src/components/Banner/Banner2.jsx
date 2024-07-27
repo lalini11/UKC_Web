@@ -23,7 +23,7 @@ const Banner2 = ({ handleOrderPopup }) => {
                 <div className='items-center text-white mt-36 lg:mx-14'>
                     {/* <img src={trophy} className='-mt-70'/> */}
                     <h1 className='text-3xl font-bold'>UKC FUNZONE</h1>
-                    <p className='text-m lg:mx-44 mx-2 m-5'>Holders of the token can explore the Fan Zone, 
+                    <p className='text-base lg:mx-44 mx-2 m-5'>Holders of the token can explore the Fan Zone, 
                         where they have the ability to oversee their tokens and participate in exclusive promotions. 
                         One exciting opportunity includes the chance to spend a day with the renowned UKC stars and so much more</p>
                 </div>
@@ -55,7 +55,7 @@ const Banner2 = ({ handleOrderPopup }) => {
                                 data-aos='zoom-out'
                                 data-aos-duration='500'
                                 data-aos-once='true'
-                                className='text-sm sm:text-sm lg:text-sm text-white lg:text-justify sm:text-justify text-center my-5'
+                                className='text-base text-white lg:text-justify sm:text-justify text-center my-5'
                             >
                                 {'Ultimate Kricket Challenge (UKC) is a revolutionary token that aims to transform the cricketing world. By leveraging blockchain technology, we provide a platform that ensures transparency, security, and engagement for all stakeholders in the cricket community.Ultimate Kricket Challenge (UKC) is a revolutionary token that aims to transform the cricketing world. By leveraging blockchain technology, we provide a platform that ensures transparency, security, and engagement for all stakeholders in the cricket community.'}
                             </h1>
@@ -64,7 +64,7 @@ const Banner2 = ({ handleOrderPopup }) => {
                                 data-aos='zoom-out'
                                 data-aos-duration='500'
                                 data-aos-once='true'
-                                className='text-xl sm:text-2xl lg:text-2xl font-bold text-white my-5'
+                                className='text-l sm:text-xl lg:text-xl font-bold text-white my-5'
                             >
                                 {'VIEW UPCOMING EVENTS'}
                             </h1>
@@ -73,7 +73,7 @@ const Banner2 = ({ handleOrderPopup }) => {
                                 data-aos='zoom-out'
                                 data-aos-duration='500'
                                 data-aos-once='true'
-                                className='text-xl sm:text-2xl lg:text-2xl font-bold text-white my-5'
+                                className='text-l sm:text-xl lg:text-xl font-bold text-white my-5'
                             >
                                 {'EVENTS'}
                             </h1>
@@ -82,7 +82,7 @@ const Banner2 = ({ handleOrderPopup }) => {
                                 data-aos='zoom-out'
                                 data-aos-duration='500'
                                 data-aos-once='true'
-                                className='text-sm sm:text-sm lg:text-sm text-white lg:text-justify sm:text-justify text-center  my-5'
+                                className='text-base text-white lg:text-justify sm:text-justify text-center  my-5'
                             >
                                 {'Ultimate Kricket Challenge (UKC) is a revolutionary token that aims to transform the cricketing world. By leveraging blockchain technology, we provide a platform that ensures transparency, security, and engagement for all stakeholders in the cricket community.Ultimate Kricket Challenge (UKC) is a revolutionary token that aims to transform the cricketing world. By leveraging blockchain technology, we provide a platform that ensures transparency, security, and engagement for all stakeholders in the cricket community.'}
                             </h1>

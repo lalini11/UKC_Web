@@ -60,7 +60,7 @@ const Features = () => {
         </div>
 
         <Heading title='Purpose'/>
-        <p className='lg:mx-14 mx-2 mb-7 sm:mx-5'>The Most Trusted Cryptocurrency Coin.
+        <p className='lg:mx-14 mx-2 mb-7 sm:mx-5 text-base'>The Most Trusted Cryptocurrency Coin.
         Ultimate Kricket Challenge (UKC) is the new frontier in the world of cricket,
          combining the excitement of the sport with the innovative power of blockchain technology. 
          Our token, UKC, is designed to bring fans, players, and investors together in a seamless, 
