@@ -18,14 +18,14 @@ const Banner = ({ handleOrderPopup }) => {
             >
                 <div className='container pb-8 sm:pb-06'>
                     <div className='grid grid-cols-1 sm:grid-cols-2'>
-                        <div className='flex flex-col justify-center gap-4 sm:pl-3 sm:pt-0 text-left sm:text-left order-2 sm:order-1 relative z-10 lg:m-14 m-2 sm:m-2'>
+                        <div className='flex flex-col justify-center gap-4 sm:pl-3 sm:pt-0 text-left sm:text-left order-2 sm:order-1 relative z-10 lg:m-14 m-2 mx-10 sm:m-2'>
                             
                         <h1
                                 data-aos='zoom-out'
                                 data-aos-duration='500'
                                 data-aos-once='true'
                                 //className='text-xl sm:text-4xl lg:text-5xl font-bold text-white'
-                                className='text-white font-bold text-[3.7rem] leading-[3.7rem]'
+                                className='text-white font-semibold sm:text-[2.5rem] text-[2rem] lg:text-[3rem] lg:leading-[3.7rem] sm:leading-[3.5rem] leading-[3rem]'
                             >
                                 {'CRICKET TRUSTED CRYPTO UKC COIN'}
                             </h1>

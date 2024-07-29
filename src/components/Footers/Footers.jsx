@@ -5,22 +5,22 @@ import Image from '../../assets/images/logo.jpg';
 const FooterLinks = [
     {
        id: 1,
-       name: 'Events',
+       name: 'White Paper',
        link: '/#'
     } , 
     {
        id: 2,
-       name: 'Store',
+       name: 'Road Map',
        link: '/#'
     } , 
     {
        id: 3,
-       name: 'Nets',
+       name: 'Sign Up',
        link: '/#'
     } , 
     {
        id: 4,
-       name: 'Token Launch',
+       name: 'login',
        link: '/#'
     } ,  
    ]

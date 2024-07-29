@@ -13,6 +13,7 @@ import 'aos/dist/aos.css';
 import Starts from './components/CoreFeature/Starts';
 import Banner2 from './components/Banner/Banner2';
 import Overview from './components/CoreFeature/Overview';
+import RoadMap from './components/CoreFeature/RoadMap';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
     <Features/>
     <Banner2/>
     <Starts/>
+    <RoadMap/>
     <Footers/>
     <Popup orderPopup={orderPopup}
     handleOrderPopup={handleOrderPopup}/>

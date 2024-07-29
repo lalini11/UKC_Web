@@ -7,17 +7,17 @@ import Button from '../Shared/Button';
 const MenuLinks = [
  {
     id: 1,
-    name: 'Events',
+    name: 'White Paper',
     link: '/#'
  } , 
  {
     id: 2,
-    name: 'Store',
+    name: 'Road Map',
     link: '/#'
  } , 
  {
     id: 3,
-    name: 'Nets',
+    name: 'Sign Up',
     link: '/#'
  } ,  
 ]
@@ -39,7 +39,7 @@ const [dropdownOpen, setDropdownOpen] = useState(false);
 
             {/* Aligning nav bar options and button to the right */}
             <div className='flex items-center gap-4 ml-auto'>
-              <div className='hidden sm:flex lg:flex gap-4 text-2xl'>
+              <div className='hidden sm:flex lg:flex gap-4 text-[1.2rem]'>
                 <ul className='flex gap-4 uppercase'>
                   {MenuLinks.map((data, index) => (
                     <li key={index}>
@@ -51,7 +51,7 @@ const [dropdownOpen, setDropdownOpen] = useState(false);
                 </ul>
               </div>
               <div className='font-bold hidden lg:flex sm:flex'>
-                <Button text='TOKEN LAUNCH' textColor={'text-white'} />
+                <Button text='LOGIN' textColor={'text-white'} />
               </div>
               <button className="lg:hidden sm:hidden p-3" onClick={() => setIsOpen(!isOpen)}>
                 {isOpen ? <FaTimes className="text-xl text-white" /> : <FaBars className="text-xl text-white" />}
@@ -68,7 +68,7 @@ const [dropdownOpen, setDropdownOpen] = useState(false);
                 <li key={index}>
                   <a href={data.link}
                     className="inline-block font-bold w-full
-                     rounded-md py-10 text-2xl hover:bg-secondary duration-200">
+                     rounded-md py-10 text-[1.2rem] hover:bg-secondary duration-200">
                     {data.name}
                   </a>
                 </li>
@@ -76,7 +76,7 @@ const [dropdownOpen, setDropdownOpen] = useState(false);
             </ul>
             <div className='font-bold mt-5'>
             <Button 
-            text = 'TOKEN LAUNCH'
+            text = 'LOGIN'
             textColor={'text-white'}/>
             </div>
             

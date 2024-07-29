@@ -6,8 +6,8 @@ const Overview = () => {
     <div>
         <div className='items-center text-white lg:mx-14'>
                     {/* <img src={trophy} className='-mt-70'/> */}
-                    <h1 className='text-[4rem] leading-[1.1] font-bold'>OVERVIEW & VISION </h1>
-                    <p className='text-[1.3rem] leading-6 lg:mx-44 mx-2 m-5'>
+                    <h1 className='lg:text-[2rem] sm:text-[2rem] text-[1.8rem] leading-[1.1] font-bold'>OVERVIEW & VISION </h1>
+                    <p className='text-[1.2rem] leading-6 lg:mx-44 mx-2 m-5'>
                         Ultimate Kricket Challenge (UKC) is a revolutionary token that aims to 
                         transform the cricketing world. By leveraging blockchain technology, 
                         we provide a platform that ensures transparency, security, 
@@ -21,11 +21,11 @@ const Overview = () => {
                             title="YouTube video player"
                             allow="accelerometer; thumbnail; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
-                            className='border border-4 border-secondary lg:w-[460px] lg:h-[262px] sm:w-[432px] sm:h-[190px] w-[300px] h-[170px]'
+                            className='border border-4 border-secondary lg:w-[460px] lg:h-[262px] sm:w-[432px] sm:h-[190px] w-full h-[170px]'
                           ></iframe>
 
                           <video src={Video} controls
-                            className='border border-4 border-secondary lg:w-[460px] lg:h-[262px] sm:w-[432px] sm:h-[190px] w-[300px] h-[170px]'
+                            className='border border-4 border-secondary lg:w-[460px] lg:h-[262px] sm:w-[432px] sm:h-[190px] w-full h-[170px]'
                           />  
                         </div>
                 </div>
